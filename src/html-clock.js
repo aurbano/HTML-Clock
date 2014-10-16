@@ -1,3 +1,9 @@
+/**
+ * HTML Clock
+ * An HTML5+CSS3+JS functioning clock developed mainly for fun.
+ *
+ * @author Alejandro U. Alvarez (http://urbanoalvarez.es)
+ */
 var HTMLClock = function () {
 	var viewport = {
 			h: 0,
