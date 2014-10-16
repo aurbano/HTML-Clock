@@ -2,6 +2,8 @@
 
 > Display an HTML rendered functioning clock. Probably useless, but it was interesting to code.
 
+![HTML Clock](http://urbanoalvarez.es/HTML-Clock/misc/html-clock.gif)
+
 ##Installation
 Download the source code and include the files in the `src` folder (css and js). You can obviously customize the css to your needs.
 
