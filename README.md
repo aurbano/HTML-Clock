@@ -40,7 +40,7 @@ The `init` method takes one argument that is the settings used. You can set the 
 
 | Parameter   |      Values      |  Description |
 |-------------|------------------|--------------|
-| container   | $('#element')    | jQuery element where the clock should appear |
+| container   | `$('#element')`    | jQuery element where the clock should appear |
 
 ##Roadmap
 The HTML clock is in a very early version, I have only spent a couple of hours on it so far, so lots of improvements need to be made. Feel free to create an issue if you spot anything that could be improved.
