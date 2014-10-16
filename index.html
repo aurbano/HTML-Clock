@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML Clock</title>
+	<link type="text/css" href="src/html-clock.css" media="all" rel="stylesheet" />
+	<style type="text/css">
+		body{
+			margin:0;
+			padding:0;
+			position:relative;
+			background:#1a1a1a;
+			color:#e6e6e6;
+			font-family:Helvetica, Arial, sans-serif;
+			font-size:100%;
+			overflow:hidden;
+		}
+		.clock{
+			width:900px;
+			height:500px;
+			border:solid 1px #ccc;
+		}
+		a, a:link, a:visited, a:focus{
+			color:#FFB00D;
+			text-decoration: none;
+		}
+		a:hover{
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+
+	<div style="width:900px; margin:0 auto;">
+		<h1>HTML Clock</h1>
+
+		<p>Sample:</p>
+
+		<div class="clock">
+			<div class="htmlClock" id="clock1">
+				<div class="htmlClock-visor"></div>
+				<div class="htmlClock-view hourView"></div>
+				<div class="htmlClock-view minuteView"></div>
+				<div class="htmlClock-view secondView"></div>
+			</div>
+		</div>
+
+		<div style="text-align:center; margin-top:40px">
+			Developed by <a href="http://urbanoalvarez.es">Alejandro U. Alvarez</a> &bull; <a href="https://github.com/aurbano/HTML-Clock">Fork on Github</a>
+		</div>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="src/html-clock.js"></script>
+
+	<script type="text/javascript">
+
+	$(document).ready(function(){
+		var clock = new HTMLClock();
+
+		clock.init({
+			container: $('#clock1')
+		});
+	});
+
+	</script>
+</body>
+</html>
