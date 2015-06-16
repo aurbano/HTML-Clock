@@ -52,3 +52,5 @@ Future development:
 
 ##License
 The HTML Clock is released under the GNU GPLv2 License.
+
+[![Analytics](https://ga-beacon.appspot.com/UA-3181088-16/HTML-Clock/readme)](https://github.com/aurbano)
